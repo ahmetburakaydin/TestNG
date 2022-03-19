@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="gun05/EditAccountTest.java">
+        <classes>
+            <class name="gun05.EditAccountTest">
+                <methods>
+                    <include name="testEditAccount"/>
+                    <include name="testEditAccount_2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
