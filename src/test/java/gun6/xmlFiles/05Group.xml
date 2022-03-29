@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GroupTest" verbose="2" >
+    <test name="Test-1" verbose="2" preserve-order="true" >
+        <groups>
+            <run>
+                <include name="TestGroup2" />
+              <!--  <exclude name="TestGroup1"/> -->
+            </run>
+        </groups>
+        <classes>
+            <class name="gun6.tests.TestClass1"/>
+            <class name="gun6.tests.TestClass2"/>
+        </classes>
+    </test>
+</suite>

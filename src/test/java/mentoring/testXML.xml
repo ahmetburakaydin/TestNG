@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/esraa/IdeaProjects/TestNG/src/test/java/mentoring">
+        <classes>
+            <class name="mentoring._01_hotels.com.testHotels">
+                <methods>
+                    <include name="testHotel"/>
+                </methods>
+            </class>
+            <class name="mentoring._02_enterprise.com.testEnterPrice">
+                <methods>
+                    <include name="testEnterPrice"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Coklu Test">
+    <test verbose="2" preserve-order="true" name="Test-1">
+        <classes>
+            <class name="gun6.tests.TestClass1"/>
+        </classes>
+    </test>
+    <test name="Test-2" preserve-order="true" verbose="2" >
+        <classes> 
+            <class name="gun6.tests.TestClass2" />
+        </classes>
+    </test>
+    
+        
+</suite>
